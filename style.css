@@ -1,0 +1,96 @@
+body {
+  background-color: #F7F7F5;
+  color: #000000;
+  font-family: "Comfortaa", sans-serif;
+}
+
+div {
+  border: 1px solid #73D4AA;
+  border-radius: 10px;
+  width: 1000px;
+  margin: 30px auto;
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  text-align: justify
+}
+
+.shadow {
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-border {
+  border: none;
+}
+
+h1, h2 {
+  color: #73D4AA;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.socials {
+  color: #73D4AA;
+  font-size: 60px;
+}
+
+.socials:hover {
+  color: #000000;
+}
+
+#linkedin-link {
+  background-color: #73D4AA;
+  color: #F7F7F5;
+  border: 1px solid #73D4AA;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#linkedin-link:hover {
+  background-color: #F7F7F5;
+  color: #73D4AA;
+}
+
+#pp {
+  border-radius: 200px;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 16px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
